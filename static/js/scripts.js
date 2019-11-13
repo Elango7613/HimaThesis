@@ -21,7 +21,7 @@ $('#but_upload').click(function (event) {
        if(response != 0){
                     $("#resultedimage").attr("src",'static/images/' + response);
                 }else{
-                    alert('file not uploaded');
+                    alert('Error:file not uploaded');
                 }
     },
   });
